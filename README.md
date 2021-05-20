@@ -1,9 +1,8 @@
 # DeepFakes Detection 
 
 
-DeepFake detection system based on the stack of two reshaped and tested models based on the implementation given in [1-2],  achieving 86% AUC on the UADFV inter-database. Given the feature space described for these two classifiers, where both yielded similar AUC under different hypertuning for the same classifier, we decided to treat them as individual classifiers. Therefore, the combination of its correspondent predicted probabilities were extracted for each case, and combined in several way, obtaining the best results for the weighted average and dimensionality reduction.
+Ensembling of two reshaped and tested models based for DeepFake detection based on [1-2], while combining visual artifacts and interpolated/compressed frequency features. Final model tested on the UADFV inter-database. 
 
-Results for  intra-database testing using UADFV database are shown on below. 
 ![](/img/table.png)
 
 ![](/img/models.png)
