@@ -1,7 +1,7 @@
 # DeepFakes Detection 
 
 
-Ensembling of two reshaped and tested models based for DeepFake detection based on [1-2], while combining visual artifacts and interpolated/compressed frequency features. Final model tested on the UADFV inter-database. 
+Ensembling of two reshaped and tested models for DeepFake detection based on [1-2], while combining visual artifacts and interpolated/compressed frequency features. Final model tested on the UADFV inter-database. 
 
 ![](/img/table.png)
 
